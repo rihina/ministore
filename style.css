@@ -1,0 +1,52 @@
+/*
+  Minimal CSS on purpose.
+  This activity is about JavaScript, not design.
+  Do NOT spend your time here — spend it in script.js.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 24px auto;
+    padding: 0 16px;
+    color: #222;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+section {
+    flex: 1;
+    min-width: 260px;
+}
+
+/* These classes are added by JavaScript, not written by hand in HTML. */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    cursor: pointer;
+    padding: 6px 10px;
+    margin-top: 6px;
+}
+
+#cart li {
+    margin-bottom: 4px;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 1.1em;
+}
