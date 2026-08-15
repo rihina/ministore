@@ -1,25 +1,4 @@
-/* =========================================================================
-   MINI PRODUCT STORE — STARTER FILE (this is the one YOU work in)
-   Name: [Your Full Name Here]
-   Section: [Your Section Here]
-   -------------------------------------------------------------------------
-   The data and the empty function "skeletons" are given to you.
-   Your job is to fill in each TODO so the store works.
-
-   RULES:
-   - Do NOT hardcode products in the HTML. Use the `products` array below.
-   - Do NOT write addApple() / addBanana(). Write ONE function that
-     works for ANY product.
-   - Keep your code readable. Add short comments explaining your logic.
-
-   TIP: Open the browser Console (F12) to see your errors while you work.
-   ========================================================================= */
-
-
-/* -------------------------------------------------------------------------
-   1) DATA  (this part is done for you)
-      An ARRAY of OBJECTS. Each object is one product.
-   ------------------------------------------------------------------------- */
+//Rejean Mary zepeda BSIT 3E
 const products = [
    { name: "Apple", price: 20 },
    { name: "Orange", price: 15 },
