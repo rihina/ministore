@@ -1,14 +1,4 @@
-/* =========================================================================
-   GRWM COSMETICS — MINI STORE
-   -------------------------------------------------------------------------
-   Data lives here. HTML + CSS never hardcode a product —
-   every card and every cart row is built by JavaScript.
-   ========================================================================= */
-
-/* -------------------------------------------------------------------------
-   1) DATA — 10 GRWM Cosmetics cult faves (prices + photos from
-      grwmcosmetics.com.ph, the brand's official store).
-   ------------------------------------------------------------------------- */
+//Rejean Mary zepeda BSIT 3E
 const products = [
     {
         id: "skin-tint",
@@ -160,9 +150,9 @@ function imageFallback(img) {
         "data:image/svg+xml;charset=utf-8," +
         encodeURIComponent(
             '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600">' +
-                '<rect width="600" height="600" fill="#f6e7de"/>' +
-                '<text x="50%" y="50%" fill="#c23b5e" font-family="Poppins,Arial" font-size="28" text-anchor="middle">GRWM</text>' +
-                "</svg>"
+            '<rect width="600" height="600" fill="#f6e7de"/>' +
+            '<text x="50%" y="50%" fill="#c23b5e" font-family="Poppins,Arial" font-size="28" text-anchor="middle">GRWM</text>' +
+            "</svg>"
         );
 }
 
